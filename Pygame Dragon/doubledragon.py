@@ -395,9 +395,9 @@ class Game():
         textRect_health = text_health.get_rect()
         textRect_score = text_score.get_rect()
 
-        textRect_lives.bottomleft = (WINDOWWIDTH - 45, WINDOWHEIGHT)
-        textRect_health.bottomleft = (0,WINDOWHEIGHT - 12)
-        textRect_score.bottomleft = (0,WINDOWHEIGHT)
+        textRect_lives.bottomleft = (WINDOWWIDTH - 45, WINDOWHEIGHT - 5)
+        textRect_health.bottomleft = (0,WINDOWHEIGHT - 20)
+        textRect_score.bottomleft = (0,WINDOWHEIGHT - 5)
 
         windowSurface.blit(text_lives, textRect_lives)
         windowSurface.blit(text_health, textRect_health)
